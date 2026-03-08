@@ -445,142 +445,690 @@
       <p class="sl">04 — Build Instructions</p>
       <h2>Step-by-Step</h2>
 
+      <!-- PHASE 1 -->
       <div class="ph">
         <span class="pn">1</span>
         <h3 class="pt">Frame Construction</h3>
       </div>
+
       <div class="st">
         <div class="sn">01</div>
         <div>
-          <h4 class="stt">Build & Fix Frame</h4>
+          <h4 class="stt">Cut All CLS Timber</h4>
           <div class="stb">
-            <p>Build two identical rectangles from CLS: <strong>1180mm long rails + 480mm short rails</strong>. Check
-              square. Cut 4 corner posts + 1 mid front post at <strong>950mm</strong>. Assemble, check plumb. Fix to
-              wall with <strong>6× coach screws</strong>, floor with <strong>4× anchors</strong>.</p>
+            <p>Cut all <strong>13 pieces</strong> from your 5× 2.4m CLS lengths before assembly. Mark each piece with
+              its role as you cut.</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Length</th>
+                  <th>Cuts</th>
+                  <th>Waste</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>1180 + 1180</td>
+                  <td>40mm</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>1180 + 1180</td>
+                  <td>40mm</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>950 + 950 + 480</td>
+                  <td>20mm</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>950 + 950 + 480</td>
+                  <td>20mm</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>950 + 480 + 480</td>
+                  <td>490mm</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>You should have: <strong>4× long rails</strong> (1180mm), <strong>4× short rails</strong> (480mm),
+              <strong>5× posts</strong> (950mm). Label them LR, SR, P.</p>
+            <p class="tp tpg"><strong>Cut all timber first.</strong> Label every piece. The 490mm offcut from length 5
+              is handy for spacer blocks later.</p>
           </div>
         </div>
       </div>
 
+      <div class="st">
+        <div class="sn">02</div>
+        <div>
+          <h4 class="stt">Build Top & Bottom Frames</h4>
+          <div class="stb">
+            <p>Build <strong>two identical rectangles</strong> — each from 2× long rails (1180mm) and 2× short rails
+              (480mm).</p>
+            <p><strong>1.</strong> Lay two long rails parallel, 480mm apart (outside to outside).<br>
+              <strong>2.</strong> Butt short rails between the long rails at each end.<br>
+              <strong>3.</strong> Pre-drill and screw with <strong>2× 4.0×50mm screws</strong> per corner (8 per
+              frame).<br>
+              <strong>4.</strong> Check square — measure both diagonals. They should match within 2mm. Adjust before
+              screws are fully tight.</p>
+            <figure class="dc">
+              <figcaption class="dl">Frame Rectangle — Top Down</figcaption>
+              <svg viewBox="0 0 440 220" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Top-down view of one rectangular frame showing 1180mm long rails and 480mm short rails">
+                <!-- Frame outline -->
+                <rect x="40" y="40" width="360" height="146" fill="none" stroke="#7a6540" stroke-width="2" />
+                <!-- Long rails -->
+                <rect x="40" y="40" width="360" height="12" fill="#5c4a2e" stroke="#7a6540" stroke-width="1" />
+                <rect x="40" y="174" width="360" height="12" fill="#5c4a2e" stroke="#7a6540" stroke-width="1" />
+                <!-- Short rails -->
+                <rect x="40" y="52" width="12" height="122" fill="#554a38" stroke="#7a6540" stroke-width="1" />
+                <rect x="388" y="52" width="12" height="122" fill="#554a38" stroke="#7a6540" stroke-width="1" />
+                <!-- Screw markers -->
+                <circle cx="46" cy="46" r="3" fill="#c9a96e" opacity="0.7" />
+                <circle cx="46" cy="180" r="3" fill="#c9a96e" opacity="0.7" />
+                <circle cx="394" cy="46" r="3" fill="#c9a96e" opacity="0.7" />
+                <circle cx="394" cy="180" r="3" fill="#c9a96e" opacity="0.7" />
+                <!-- Diagonal check -->
+                <line x1="40" y1="40" x2="400" y2="186" style="stroke:var(--ac);stroke-width:0.5;stroke-dasharray:6,4;opacity:0.4" />
+                <line x1="400" y1="40" x2="40" y2="186" style="stroke:var(--ac);stroke-width:0.5;stroke-dasharray:6,4;opacity:0.4" />
+                <text x="220" y="120" class="ds" text-anchor="middle" style="opacity:0.5">diagonals equal = square</text>
+                <!-- Dims -->
+                <line x1="40" y1="25" x2="400" y2="25" class="dm" />
+                <line x1="40" y1="20" x2="40" y2="30" class="dm" />
+                <line x1="400" y1="20" x2="400" y2="30" class="dm" />
+                <text x="220" y="18" class="dt" text-anchor="middle">1180</text>
+                <line x1="415" y1="40" x2="415" y2="186" class="dm" />
+                <line x1="410" y1="40" x2="420" y2="40" class="dm" />
+                <line x1="410" y1="186" x2="420" y2="186" class="dm" />
+                <text x="430" y="118" class="dt" text-anchor="middle" transform="rotate(-90,430,118)">480</text>
+                <!-- Labels -->
+                <text x="220" y="36" class="lt" text-anchor="middle">long rail (LR)</text>
+                <text x="26" y="113" class="lt" text-anchor="middle" transform="rotate(-90,26,113)">SR</text>
+                <text x="414" y="113" class="lt" text-anchor="middle" transform="rotate(-90,414,113)">SR</text>
+              </svg>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="st">
+        <div class="sn">03</div>
+        <div>
+          <h4 class="stt">Assemble Posts & Frames</h4>
+          <div class="stb">
+            <p><strong>1.</strong> Stand one frame on the floor — this is the <strong>bottom frame</strong>.<br>
+              <strong>2.</strong> Screw the 4 corner posts (950mm) to the inside corners of the bottom frame.
+              Pre-drill, then <strong>2× 4.0×50mm screws</strong> per post from outside the frame into the end
+              grain.<br>
+              <strong>3.</strong> Screw the <strong>mid front post</strong> to the centre of the front long rail
+              (~590mm from each end).<br>
+              <strong>4.</strong> Lift the <strong>top frame</strong> onto the posts. Align flush and screw down —
+              same method, 2 screws per post.<br>
+              <strong>5.</strong> Check plumb on all posts with a spirit level. Adjust before tightening fully.</p>
+            <figure class="dc">
+              <figcaption class="dl">Frame Assembly — Front View</figcaption>
+              <svg viewBox="0 0 440 360" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Front view of assembled frame showing posts standing on bottom frame with top frame on top">
+                <!-- Floor -->
+                <line x1="30" y1="330" x2="410" y2="330" class="fl" />
+                <!-- Bottom frame (front long rail visible) -->
+                <rect x="60" y="310" width="300" height="20" fill="#5c4a2e" stroke="#7a6540" stroke-width="1" />
+                <text x="210" y="348" class="lt" text-anchor="middle">bottom frame rail</text>
+                <!-- Top frame (front long rail visible) -->
+                <rect x="60" y="40" width="300" height="20" fill="#5c4a2e" stroke="#7a6540" stroke-width="1" />
+                <text x="210" y="32" class="lt" text-anchor="middle">top frame rail</text>
+                <!-- Corner posts (standing between frames) -->
+                <rect x="65" y="60" width="18" height="250" fill="#554a38" stroke="#7a6540" stroke-width="1" />
+                <rect x="337" y="60" width="18" height="250" fill="#554a38" stroke="#7a6540" stroke-width="1" />
+                <!-- Rear corner posts (slightly visible behind) -->
+                <rect x="71" y="60" width="12" height="250" fill="#4a3f30" stroke="#7a6540" stroke-width="0.5" opacity="0.4" />
+                <rect x="337" y="60" width="12" height="250" fill="#4a3f30" stroke="#7a6540" stroke-width="0.5" opacity="0.4" />
+                <!-- Mid front post -->
+                <rect x="201" y="60" width="18" height="250" fill="#665a48" stroke="#7a6540" stroke-width="1" />
+                <!-- Post labels -->
+                <text x="74" y="190" class="ds" text-anchor="middle" transform="rotate(-90,74,190)">corner post</text>
+                <text x="346" y="190" class="ds" text-anchor="middle" transform="rotate(-90,346,190)">corner post</text>
+                <text x="210" y="190" class="ds" text-anchor="middle" transform="rotate(-90,210,190)">mid post</text>
+                <!-- Screw indicators on bottom frame -->
+                <line x1="55" y1="320" x2="68" y2="320" style="stroke:var(--ac);stroke-width:1.5" />
+                <line x1="55" y1="316" x2="68" y2="316" style="stroke:var(--ac);stroke-width:1.5" />
+                <line x1="352" y1="320" x2="365" y2="320" style="stroke:var(--ac);stroke-width:1.5" />
+                <line x1="352" y1="316" x2="365" y2="316" style="stroke:var(--ac);stroke-width:1.5" />
+                <!-- Screw indicators on top frame -->
+                <line x1="55" y1="50" x2="68" y2="50" style="stroke:var(--ac);stroke-width:1.5" />
+                <line x1="55" y1="46" x2="68" y2="46" style="stroke:var(--ac);stroke-width:1.5" />
+                <line x1="352" y1="50" x2="365" y2="50" style="stroke:var(--ac);stroke-width:1.5" />
+                <line x1="352" y1="46" x2="365" y2="46" style="stroke:var(--ac);stroke-width:1.5" />
+                <!-- Dims: post height -->
+                <line x1="390" y1="60" x2="390" y2="310" class="dm" />
+                <line x1="385" y1="60" x2="395" y2="60" class="dm" />
+                <line x1="385" y1="310" x2="395" y2="310" class="dm" />
+                <text x="405" y="190" class="dt" text-anchor="middle" transform="rotate(-90,405,190)">950</text>
+                <!-- Dims: width -->
+                <line x1="60" y1="22" x2="360" y2="22" class="dm" />
+                <line x1="60" y1="17" x2="60" y2="27" class="dm" />
+                <line x1="360" y1="17" x2="360" y2="27" class="dm" />
+                <text x="210" y="16" class="dt" text-anchor="middle">1180</text>
+                <!-- Detail callout box -->
+                <rect x="38" y="285" width="50" height="50" fill="none" stroke="var(--ac)" stroke-width="1" stroke-dasharray="3,2" opacity="0.6" />
+                <text x="63" y="280" class="ds" style="fill:var(--ac)">see detail ↓</text>
+              </svg>
+            </figure>
+            <figure class="dc">
+              <figcaption class="dl">Corner Detail — How Posts Fix to Frames</figcaption>
+              <svg viewBox="0 0 380 300" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Zoomed corner detail showing post sitting inside frame corner with screws going through rail into post end grain">
+                <!-- Section label -->
+                <text x="190" y="18" class="lt" text-anchor="middle" style="fill:var(--ac)">corner section — looking down at bottom frame</text>
+                <!-- Bottom frame long rail (horizontal, seen from above in section) -->
+                <rect x="40" y="80" width="300" height="38" fill="#5c4a2e" stroke="#7a6540" stroke-width="1.5" />
+                <text x="190" y="103" style="fill:var(--txb);font-family:'JetBrains Mono',monospace;font-size:9px" text-anchor="middle">long rail (38×63)</text>
+                <!-- Bottom frame short rail (going into page, section view) -->
+                <rect x="40" y="120" width="63" height="100" fill="#665a48" stroke="#7a6540" stroke-width="1.5" />
+                <text x="71" y="175" style="fill:var(--txb);font-family:'JetBrains Mono',monospace;font-size:8px" text-anchor="middle" transform="rotate(-90,71,175)">short rail</text>
+                <!-- Post (standing up, section = 38x63 cross-section, inside the corner) -->
+                <rect x="105" y="120" width="38" height="63" fill="#554a38" stroke="#7a6540" stroke-width="1.5" />
+                <text x="124" y="156" style="fill:var(--txb);font-family:'JetBrains Mono',monospace;font-size:8px" text-anchor="middle">post</text>
+                <text x="124" y="168" style="fill:var(--txd);font-family:'JetBrains Mono',monospace;font-size:7px" text-anchor="middle">(end grain)</text>
+                <!-- Screws through long rail into post end grain -->
+                <line x1="105" y1="90" x2="143" y2="90" style="stroke:var(--ac);stroke-width:2" />
+                <polygon points="143,87 148,90 143,93" fill="var(--ac)" />
+                <line x1="105" y1="100" x2="143" y2="100" style="stroke:var(--ac);stroke-width:2" />
+                <polygon points="143,97 148,100 143,103" fill="var(--ac)" />
+                <text x="155" y="88" class="ds" style="fill:var(--ac)">screw 1</text>
+                <text x="155" y="103" class="ds" style="fill:var(--ac)">screw 2</text>
+                <!-- Screw through short rail into post end grain -->
+                <line x1="60" y1="120" x2="60" y2="155" style="stroke:var(--ac);stroke-width:2" />
+                <polygon points="57,155 60,160 63,155" fill="var(--ac)" />
+                <line x1="80" y1="120" x2="80" y2="155" style="stroke:var(--ac);stroke-width:2" />
+                <polygon points="77,155 80,160 83,155" fill="var(--ac)" />
+                <text x="50" y="215" class="ds" text-anchor="middle" style="fill:var(--ac)">screws from</text>
+                <text x="50" y="226" class="ds" text-anchor="middle" style="fill:var(--ac)">short rail</text>
+                <!-- Dimension: CLS cross section -->
+                <line x1="105" y1="195" x2="143" y2="195" class="dm" />
+                <line x1="105" y1="190" x2="105" y2="200" class="dm" />
+                <line x1="143" y1="190" x2="143" y2="200" class="dm" />
+                <text x="124" y="210" class="ds" text-anchor="middle">38</text>
+                <line x1="150" y1="120" x2="150" y2="183" class="dm" />
+                <line x1="145" y1="120" x2="155" y2="120" class="dm" />
+                <line x1="145" y1="183" x2="155" y2="183" class="dm" />
+                <text x="162" y="155" class="ds" text-anchor="middle" transform="rotate(-90,162,155)">63</text>
+                <!-- Explanatory text -->
+                <text x="240" y="145" class="lt" style="font-size:8px">Post sits inside the</text>
+                <text x="240" y="158" class="lt" style="font-size:8px">frame corner. Screws go</text>
+                <text x="240" y="171" class="lt" style="font-size:8px">through the rail face</text>
+                <text x="240" y="184" class="lt" style="font-size:8px">into post end grain.</text>
+                <text x="240" y="204" class="lt" style="font-size:8px;fill:var(--ac)">Pre-drill to avoid</text>
+                <text x="240" y="217" class="lt" style="font-size:8px;fill:var(--ac)">splitting the CLS.</text>
+                <!-- Arrows showing "outside" direction -->
+                <line x1="30" y1="95" x2="40" y2="95" style="stroke:var(--txd);stroke-width:0.8" />
+                <polygon points="30,92 25,95 30,98" fill="var(--txd)" />
+                <text x="14" y="92" class="ds" text-anchor="middle" style="fill:var(--txd)">outside</text>
+                <line x1="70" y1="230" x2="70" y2="220" style="stroke:var(--txd);stroke-width:0.8" />
+                <polygon points="67,230 70,235 73,230" fill="var(--txd)" />
+                <text x="70" y="248" class="ds" text-anchor="middle" style="fill:var(--txd)">front</text>
+              </svg>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="st">
+        <div class="sn">04</div>
+        <div>
+          <h4 class="stt">Fix Frame to Wall & Floor</h4>
+          <div class="stb">
+            <p>Position the assembled frame against the wall where the bar will live.</p>
+            <p><strong>Wall fixings:</strong> Drill through the <strong>rear top and bottom rails</strong> into the
+              wall. Use <strong>6× 100mm coach screws</strong> — 3 along the top rail, 3 along the bottom. For masonry:
+              drill 10mm holes, insert wall plugs first.</p>
+            <p><strong>Floor fixings:</strong> Drill down through the bottom frame into the floor. Use <strong>4× M10×75mm
+                anchors</strong> — one near each corner.</p>
+            <p class="tp tpg"><strong>Timber floor?</strong> Skip the anchors — use 100mm screws straight down through
+              the bottom rail instead. <strong>Stud wall?</strong> Skip wall plugs — screw directly into studs.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 2 -->
       <div class="ph">
         <span class="pn">2</span>
         <h3 class="pt">Side Cladding</h3>
       </div>
+
       <div class="st">
-        <div class="sn">02</div>
+        <div class="sn">05</div>
         <div>
-          <h4 class="stt">Fit Side Panels</h4>
+          <h4 class="stt">Cut Side Panels</h4>
           <div class="stb">
-            <p>Glue and pin <strong>2× side panels (925 × 550mm, 11mm)</strong> to the side faces of the frame. 25mm
-              shorter than carcass height — hidden under bar top. No rear panel — the back stays open for shelf access.
-            </p>
+            <p>From the 11mm OSB sheet, cut <strong>2× side panels at 925 × 550mm</strong>. These are 25mm shorter
+              than the 950mm carcass height — the gap at the top is hidden under the bar top overhang.</p>
+            <p>Refer to the <a href="#cuts">Sheet 2 cut layout</a> — side panels come from the left portion of the
+              sheet. If the merchant crosscut the sheet at 925mm, you just need to rip at 550mm.</p>
           </div>
         </div>
       </div>
 
+      <div class="st">
+        <div class="sn">06</div>
+        <div>
+          <h4 class="stt">Glue & Pin Side Panels</h4>
+          <div class="stb">
+            <p><strong>1.</strong> Apply PVA glue to the outer faces of the corner posts and side rails.<br>
+              <strong>2.</strong> Align the panel <strong>flush with the top of the frame</strong> and flush with the
+              front posts.<br>
+              <strong>3.</strong> Pin with <strong>30mm panel pins</strong> at ~150mm centres around the edges.<br>
+              <strong>4.</strong> Repeat for the other side.</p>
+            <p>The bottom edge of the panel will sit <strong>~25mm above the floor</strong>. This gap is invisible from
+              the front and helps if the floor is uneven.</p>
+            <figure class="dc">
+              <figcaption class="dl">Side Panel Attachment</figcaption>
+              <svg viewBox="0 0 340 380" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Side view showing panel attached to frame with 25mm gap at bottom">
+                <!-- Floor -->
+                <line x1="20" y1="340" x2="320" y2="340" class="fl" />
+                <text x="30" y="355" class="lt">floor</text>
+                <!-- Frame posts (section view) -->
+                <rect x="100" y="50" width="12" height="290" fill="#5c4a2e" stroke="#7a6540" stroke-width="1" />
+                <rect x="240" y="50" width="12" height="290" fill="#5c4a2e" stroke="#7a6540" stroke-width="1" />
+                <!-- Top rail -->
+                <rect x="100" y="50" width="152" height="12" fill="#5c4a2e" stroke="#7a6540" stroke-width="1" />
+                <!-- Bottom rail -->
+                <rect x="100" y="328" width="152" height="12" fill="#5c4a2e" stroke="#7a6540" stroke-width="1" />
+                <!-- Side panel (overlapping frame) -->
+                <rect x="90" y="50" width="10" height="285" fill="#4a3f30" stroke="#6a5e48" stroke-width="1.5" />
+                <!-- Pin markers -->
+                <circle cx="95" cy="70" r="1.5" fill="#c9a96e" />
+                <circle cx="95" cy="150" r="1.5" fill="#c9a96e" />
+                <circle cx="95" cy="230" r="1.5" fill="#c9a96e" />
+                <circle cx="95" cy="310" r="1.5" fill="#c9a96e" />
+                <!-- Labels -->
+                <text x="75" y="190" class="lt" text-anchor="end" transform="rotate(-90,75,190)">side panel 925mm</text>
+                <text x="165" y="190" class="lt" text-anchor="middle" transform="rotate(-90,165,190)">post 950mm</text>
+                <!-- 25mm gap -->
+                <line x1="70" y1="335" x2="70" y2="340" class="dm" style="opacity:0.6" />
+                <line x1="65" y1="335" x2="75" y2="335" class="dm" style="opacity:0.6" />
+                <line x1="65" y1="340" x2="75" y2="340" class="dm" style="opacity:0.6" />
+                <text x="58" y="340" class="ds" text-anchor="end">25</text>
+                <!-- Top alignment -->
+                <line x1="85" y1="48" x2="118" y2="48" style="stroke:var(--ac);stroke-width:0.5;stroke-dasharray:3,2;opacity:0.5" />
+                <text x="140" y="42" class="ds">flush at top</text>
+                <!-- Dims -->
+                <line x1="275" y1="50" x2="275" y2="340" class="dm" />
+                <line x1="270" y1="50" x2="280" y2="50" class="dm" />
+                <line x1="270" y1="340" x2="280" y2="340" class="dm" />
+                <text x="290" y="200" class="dt" text-anchor="middle" transform="rotate(-90,290,200)">950</text>
+              </svg>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 3 -->
       <div class="ph">
         <span class="pn">3</span>
         <h3 class="pt">Internal Shelving</h3>
       </div>
+
       <div class="st">
-        <div class="sn">03</div>
+        <div class="sn">07</div>
         <div>
-          <h4 class="stt">Fit Shelf Cleats</h4>
+          <h4 class="stt">Cut & Fit Shelf Cleats</h4>
           <div class="stb">
-            <p>Cut small cleats (~100 × 45mm) from 11mm offcuts. Screw cleats to the <strong>inner faces of the side
-                panels and corner posts</strong> at shelf heights. Position shelves at approximately:</p>
-            <p><strong>Bottom shelf (mixers):</strong> 150mm from carcass floor. <strong>Middle shelf
-                (glasses):</strong> 450mm from floor. <strong>Top shelf (spirits):</strong> 700mm from floor (just below
-              bar top).</p>
-            <p>Adjust heights to suit your bottles and glassware.</p>
-          </div>
-        </div>
-      </div>
-      <div class="st">
-        <div class="sn">04</div>
-        <div>
-          <h4 class="stt">Fit Centre Divider & Shelves</h4>
-          <div class="stb">
-            <p>Cut the <strong>centre divider at 875 × 480mm from 11mm OSB</strong>. This sits vertically in the middle
-              of the carcass, running front to back, between the bottom shelf and the underside of the bar top. Screw to
-              front and rear bottom rails and to the underside of the top frame.</p>
-            <p>Slide the three shelves into place on their cleats, one each side of the divider. Pin or screw down into
-              the cleats. The divider prevents sag and splits the storage into two organised sections — spirits and
-              glasses on one side, mixers and tools on the other.</p>
+            <p>Cut small cleats (~<strong>100 × 45mm</strong>) from 11mm offcuts. You need roughly <strong>12
+                cleats</strong> — 2 per shelf per side (left and right of the divider), attached to the side panels and
+              corner posts.</p>
+            <p>Screw cleats to the <strong>inner faces</strong> at these heights from the top of the bottom frame:</p>
+            <p><strong>Bottom shelf (mixers):</strong> 150mm<br>
+              <strong>Middle shelf (glasses):</strong> 450mm<br>
+              <strong>Top shelf (spirits):</strong> 700mm</p>
+            <p>Use <strong>3.5×25mm screws</strong>, 2 per cleat. Pre-drill the 11mm OSB to avoid splitting.</p>
+            <p class="tp tpg"><strong>Tip:</strong> Cut a spacer block to each height and use it to position all cleats
+              at that level consistently.</p>
           </div>
         </div>
       </div>
 
+      <div class="st">
+        <div class="sn">08</div>
+        <div>
+          <h4 class="stt">Cut & Fit Centre Divider</h4>
+          <div class="stb">
+            <p>Cut the <strong>centre divider at 875 × 480mm from 11mm OSB</strong>. This sits vertically in the
+              middle of the carcass, running front to back.</p>
+            <p><strong>1.</strong> Mark the centre of the front and rear bottom rails (~590mm from each end).<br>
+              <strong>2.</strong> Stand the divider vertically between the bottom shelf cleats and the underside of the
+              top frame.<br>
+              <strong>3.</strong> Screw through the front and rear bottom rails into the divider edge.<br>
+              <strong>4.</strong> Screw down through the top frame rail into the top edge.</p>
+            <figure class="dc">
+              <figcaption class="dl">Internal Layout — Operator View</figcaption>
+              <svg viewBox="0 0 440 340" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Front internal view showing centre divider and three shelf heights with six cubbyholes">
+                <!-- Frame outline -->
+                <rect x="50" y="30" width="340" height="260" fill="none" stroke="#7a6540" stroke-width="1.5" />
+                <!-- Posts -->
+                <rect x="50" y="30" width="12" height="260" fill="#5c4a2e" stroke="#7a6540" stroke-width="0.8" />
+                <rect x="378" y="30" width="12" height="260" fill="#5c4a2e" stroke="#7a6540" stroke-width="0.8" />
+                <!-- Centre divider -->
+                <rect x="217" y="60" width="6" height="200" fill="#554a38" stroke="#7a6e55" stroke-width="1" />
+                <!-- Shelves -->
+                <line x1="62" y1="250" x2="378" y2="250" style="stroke:#7a6540;stroke-width:2" />
+                <line x1="62" y1="170" x2="378" y2="170" style="stroke:#7a6540;stroke-width:2" />
+                <line x1="62" y1="95" x2="378" y2="95" style="stroke:#7a6540;stroke-width:2" />
+                <!-- Cubbyhole labels -->
+                <text x="140" y="128" class="lt" text-anchor="middle" style="font-size:8px;fill:var(--txd)">spirits</text>
+                <text x="300" y="128" class="lt" text-anchor="middle" style="font-size:8px;fill:var(--txd)">spirits</text>
+                <text x="140" y="215" class="lt" text-anchor="middle" style="font-size:8px;fill:var(--txd)">glasses</text>
+                <text x="300" y="215" class="lt" text-anchor="middle" style="font-size:8px;fill:var(--txd)">glasses</text>
+                <text x="140" y="272" class="lt" text-anchor="middle" style="font-size:7px;fill:var(--txd)">mixers</text>
+                <text x="300" y="272" class="lt" text-anchor="middle" style="font-size:7px;fill:var(--txd)">mixers</text>
+                <!-- Shelf height dims -->
+                <line x1="410" y1="95" x2="410" y2="290" class="dm" style="opacity:0.5" />
+                <line x1="405" y1="95" x2="415" y2="95" class="dm" style="opacity:0.5" />
+                <line x1="405" y1="290" x2="415" y2="290" class="dm" style="opacity:0.5" />
+                <text x="425" y="196" class="ds" text-anchor="middle" transform="rotate(-90,425,196)">700</text>
+                <line x1="420" y1="170" x2="420" y2="290" class="dm" style="opacity:0.4" />
+                <line x1="415" y1="170" x2="425" y2="170" class="dm" style="opacity:0.4" />
+                <text x="435" y="234" class="ds" text-anchor="middle" transform="rotate(-90,435,234)">450</text>
+                <line x1="430" y1="250" x2="430" y2="290" class="dm" style="opacity:0.3" />
+                <line x1="425" y1="250" x2="435" y2="250" class="dm" style="opacity:0.3" />
+                <text x="438" y="272" class="ds" text-anchor="middle" transform="rotate(-90,438,272)">150</text>
+                <!-- Divider label -->
+                <text x="220" y="22" class="lt" text-anchor="middle" style="fill:var(--ac)">centre divider</text>
+              </svg>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="st">
+        <div class="sn">09</div>
+        <div>
+          <h4 class="stt">Cut & Fit Shelves</h4>
+          <div class="stb">
+            <p>Cut <strong>three shelves</strong> from 11mm OSB:</p>
+            <p><strong>Bottom:</strong> 1080 × 250mm<br>
+              <strong>Middle:</strong> 1080 × 200mm<br>
+              <strong>Top:</strong> 1080 × 110mm</p>
+            <p>Each shelf spans the full carcass width (between the posts). <strong>Notch</strong> the centre of each
+              shelf (~6mm wide) to fit around the divider, or cut each shelf as two halves.</p>
+            <p>Slide shelves onto their cleats. Pin or screw down with <strong>3.5×25mm screws</strong> into the
+              cleats to prevent movement.</p>
+            <p class="tp tpg"><strong>Easiest approach:</strong> Cut shelves full width and notch for the divider —
+              one straight jigsaw cut per shelf. More rigid than two separate halves.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 4 -->
       <div class="ph">
         <span class="pn">4</span>
         <h3 class="pt">Wave Front & LEDs</h3>
       </div>
+
       <div class="st">
-        <div class="sn">05</div>
+        <div class="sn">10</div>
         <div>
-          <h4 class="stt">Cut & Sand Wave Panels</h4>
+          <h4 class="stt">Mark & Cut Wave Panels</h4>
           <div class="stb">
-            <p>Cut <strong>9–10 panels at 700 × 100mm from 18mm offcuts</strong>. Wave-cut the front face with a jigsaw.
-              Vary amplitude and frequency per panel. Sand with 80-grit flap disc then 120-grit by hand.</p>
-          </div>
-        </div>
-      </div>
-      <div class="st">
-        <div class="sn">06</div>
-        <div>
-          <h4 class="stt">LED Strip & Wave Panels</h4>
-          <div class="stb">
-            <p class="tp tpl"><strong>Before panels:</strong> Fix LED strip (2700K, IP65) along the front bottom rail,
-              facing up. Test.</p>
-            <p>Prepare spacer blocks at varying depths. Fix panels left to right with <strong>25mm gaps</strong>,
-              alternating depths for the ripple effect. Use a timber strip as a gap spacer jig.</p>
+            <p>From the 18mm OSB offcuts (Sheet 1 remainder), cut <strong>9–10 panels at 700 × 100mm</strong>.</p>
+            <p><strong>1.</strong> Mark straight 100mm-wide strips across the offcut piece.<br>
+              <strong>2.</strong> Cut the strips with a circular saw or jigsaw with a fence.<br>
+              <strong>3.</strong> On the <strong>front face</strong> of each panel, draw a wavy line using a flexible
+              batten or freehand. Vary the wave — some gentle curves, some more pronounced. Maximum depth variation
+              ~<strong>140mm</strong>.</p>
           </div>
         </div>
       </div>
 
+      <div class="st">
+        <div class="sn">11</div>
+        <div>
+          <h4 class="stt">Shape & Sand Panels</h4>
+          <div class="stb">
+            <p><strong>1.</strong> Clamp each panel and jigsaw along the wavy line.<br>
+              <strong>2.</strong> Rough-sand the wavy edge with an <strong>80-grit flap disc</strong> on an angle
+              grinder — this shapes quickly and gives a sculptural texture.<br>
+              <strong>3.</strong> Finish-sand with <strong>120-grit by hand</strong>. Round over any sharp edges.</p>
+            <figure class="dc">
+              <figcaption class="dl">Wave Panel Profile</figcaption>
+              <svg viewBox="0 0 300 360" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Side view of one wave panel showing wavy profile and dimensions">
+                <!-- Straight back edge -->
+                <rect x="100" y="30" width="18" height="280" fill="#554a38" stroke="#7a6e55" stroke-width="1" />
+                <!-- Wavy front edge -->
+                <path d="M118,30 L118,310 L160,310 C165,290 145,270 155,245 C165,220 148,200 158,175 C168,150 150,130 160,105 C168,82 155,60 158,40 C160,34 155,30 150,30 Z"
+                  fill="#665a48" stroke="#7a6e55" stroke-width="1" />
+                <!-- Dimension: height -->
+                <line x1="80" y1="30" x2="80" y2="310" class="dm" />
+                <line x1="75" y1="30" x2="85" y2="30" class="dm" />
+                <line x1="75" y1="310" x2="85" y2="310" class="dm" />
+                <text x="70" y="175" class="dt" text-anchor="middle" transform="rotate(-90,70,175)">700</text>
+                <!-- Dimension: width -->
+                <line x1="100" y1="330" x2="118" y2="330" class="dm" />
+                <line x1="100" y1="325" x2="100" y2="335" class="dm" />
+                <line x1="118" y1="325" x2="118" y2="335" class="dm" />
+                <text x="109" y="348" class="ds" text-anchor="middle">100</text>
+                <!-- Depth variation -->
+                <line x1="118" y1="245" x2="165" y2="245" class="dm" style="opacity:0.5" />
+                <line x1="118" y1="240" x2="118" y2="250" class="dm" style="opacity:0.5" />
+                <line x1="165" y1="240" x2="165" y2="250" class="dm" style="opacity:0.5" />
+                <text x="142" y="262" class="ds" text-anchor="middle">~140 max</text>
+                <!-- Labels -->
+                <text x="200" y="120" class="lt">wavy front</text>
+                <text x="200" y="135" class="lt">edge (jigsaw)</text>
+                <text x="90" y="175" class="lt" text-anchor="end" transform="rotate(-90,90,175)">flat back</text>
+              </svg>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="st">
+        <div class="sn">12</div>
+        <div>
+          <h4 class="stt">Install LED Strip</h4>
+          <div class="stb">
+            <p>Fix the <strong>LED strip (2700K, IP65)</strong> along the front face of the <strong>bottom front
+                rail</strong>, LEDs facing upward.</p>
+            <p><strong>1.</strong> Peel off the adhesive backing and press along the rail.<br>
+              <strong>2.</strong> Add cable clips every 200mm for security.<br>
+              <strong>3.</strong> Route the cable out through the open back — no drilling needed.<br>
+              <strong>4.</strong> Connect the driver and <strong>test</strong>.</p>
+            <p class="tp tpl"><strong>Test the LEDs now.</strong> Once wave panels are fixed, accessing the strip is
+              much harder. Check for dead spots and ensure even brightness.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="st">
+        <div class="sn">13</div>
+        <div>
+          <h4 class="stt">Fix Wave Panels</h4>
+          <div class="stb">
+            <p>Cut spacer blocks at <strong>varying depths (20–50mm)</strong> from offcuts. These create the wave
+              effect when viewed from the side.</p>
+            <p><strong>1.</strong> Cut a <strong>25mm timber strip</strong> as a gap spacer jig.<br>
+              <strong>2.</strong> Start at the left end. Place the first spacer block on the bottom rail, then the first
+              panel against it. Screw through the panel base into the bottom rail.<br>
+              <strong>3.</strong> Place the 25mm spacer jig, then the next panel with a <strong>different depth
+                spacer</strong>.<br>
+              <strong>4.</strong> Continue left to right, alternating spacer depths: e.g. 30, 50, 20, 45, 25, 50, 30,
+              40, 20mm.<br>
+              <strong>5.</strong> Screw each panel top into the front top rail as well.</p>
+            <figure class="dc">
+              <figcaption class="dl">Wave Panel Spacing — Plan View</figcaption>
+              <svg viewBox="0 0 440 200" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Top-down view showing wave panels at varying depths with 25mm gaps between them">
+                <!-- Front rail -->
+                <rect x="30" y="40" width="380" height="12" fill="#5c4a2e" stroke="#7a6540" stroke-width="1" />
+                <text x="220" y="36" class="lt" text-anchor="middle">front rail</text>
+                <!-- LED strip -->
+                <line x1="40" y1="52" x2="400" y2="52" style="stroke:#ffdd88;stroke-width:2;opacity:0.6" />
+                <!-- Wave panels at varying depths -->
+                <rect x="40" y="52" width="18" height="35" fill="#3d3527" stroke="#4a4030" stroke-width="0.5" />
+                <rect x="83" y="52" width="18" height="55" fill="#4a3f30" stroke="#5a4e3a" stroke-width="0.5" />
+                <rect x="126" y="52" width="18" height="25" fill="#554a38" stroke="#6a5e48" stroke-width="0.5" />
+                <rect x="169" y="52" width="18" height="50" fill="#5e5240" stroke="#7a6e55" stroke-width="0.5" />
+                <rect x="212" y="52" width="18" height="30" fill="#4a3f30" stroke="#5a4e3a" stroke-width="0.5" />
+                <rect x="255" y="52" width="18" height="55" fill="#3d3527" stroke="#4a4030" stroke-width="0.5" />
+                <rect x="298" y="52" width="18" height="35" fill="#4a3f30" stroke="#5a4e3a" stroke-width="0.5" />
+                <rect x="341" y="52" width="18" height="45" fill="#5e5240" stroke="#7a6e55" stroke-width="0.5" />
+                <rect x="384" y="52" width="12" height="28" fill="#554a38" stroke="#6a5e48" stroke-width="0.5" />
+                <!-- Gap dimension -->
+                <line x1="58" y1="140" x2="83" y2="140" class="dm" />
+                <line x1="58" y1="135" x2="58" y2="145" class="dm" />
+                <line x1="83" y1="135" x2="83" y2="145" class="dm" />
+                <text x="70" y="156" class="ds" text-anchor="middle">25 gap</text>
+                <!-- Depth dims -->
+                <line x1="92" y1="52" x2="92" y2="107" class="dm" style="opacity:0.4" />
+                <text x="92" y="120" class="ds" text-anchor="middle">50</text>
+                <line x1="135" y1="52" x2="135" y2="77" class="dm" style="opacity:0.4" />
+                <text x="135" y="88" class="ds" text-anchor="middle">20</text>
+                <!-- Label -->
+                <text x="220" y="180" class="lt" text-anchor="middle" style="fill:var(--ac)">varying depths create
+                  the wave effect</text>
+              </svg>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 5 -->
       <div class="ph">
         <span class="pn">5</span>
         <h3 class="pt">Bar Top</h3>
       </div>
+
       <div class="st">
-        <div class="sn">07</div>
+        <div class="sn">14</div>
         <div>
-          <h4 class="stt">Laminate & Fix</h4>
+          <h4 class="stt">Laminate Bar Top</h4>
           <div class="stb">
-            <p>Glue underlay (1180 × 510, 11mm) to underside of bar top (1220 × 550, 18mm). Router roundover on edges.
-              Fix to frame: <strong>200mm front overhang, 20mm sides, flush rear</strong>.</p>
+            <p>Glue the <strong>underlay (1180 × 510mm, 11mm)</strong> to the underside of the <strong>bar top
+                (1220 × 550mm, 18mm)</strong>.</p>
+            <p><strong>1.</strong> Apply PVA glue evenly across the underlay.<br>
+              <strong>2.</strong> Centre it on the underside of the bar top: ~20mm inset from each side, ~20mm from
+              the rear edge.<br>
+              <strong>3.</strong> Clamp or weight down evenly. Leave for <strong>at least 1 hour</strong>.</p>
+            <figure class="dc">
+              <figcaption class="dl">Bar Top — Underside View</figcaption>
+              <svg viewBox="0 0 440 240" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Underside of bar top showing smaller underlay piece centred on the larger top piece">
+                <!-- Bar top (outer) -->
+                <rect x="30" y="30" width="380" height="170" rx="3" fill="#4a3f30" stroke="#6a5e48" stroke-width="1.5" />
+                <!-- Underlay (inner) -->
+                <rect x="46" y="46" width="348" height="138" rx="2" fill="#3d3527" stroke="#5a4e3a" stroke-width="1" />
+                <!-- Labels -->
+                <text x="220" y="120" style="fill:var(--txb);font-family:'JetBrains Mono',monospace;font-size:10px"
+                  text-anchor="middle">Underlay 1180×510</text>
+                <text x="220" y="136" style="fill:var(--txd);font-family:'JetBrains Mono',monospace;font-size:8px"
+                  text-anchor="middle">(11mm, glued to underside)</text>
+                <!-- Outer dims -->
+                <line x1="30" y1="15" x2="410" y2="15" class="dm" />
+                <line x1="30" y1="10" x2="30" y2="20" class="dm" />
+                <line x1="410" y1="10" x2="410" y2="20" class="dm" />
+                <text x="220" y="10" class="dt" text-anchor="middle">1220</text>
+                <line x1="420" y1="30" x2="420" y2="200" class="dm" />
+                <line x1="415" y1="30" x2="425" y2="30" class="dm" />
+                <line x1="415" y1="200" x2="425" y2="200" class="dm" />
+                <text x="435" y="120" class="dt" text-anchor="middle" transform="rotate(-90,435,120)">550</text>
+                <!-- Offset dims -->
+                <line x1="30" y1="215" x2="46" y2="215" class="dm" style="opacity:0.5" />
+                <line x1="30" y1="210" x2="30" y2="220" class="dm" style="opacity:0.5" />
+                <line x1="46" y1="210" x2="46" y2="220" class="dm" style="opacity:0.5" />
+                <text x="38" y="230" class="ds" text-anchor="middle">20</text>
+              </svg>
+            </figure>
           </div>
         </div>
       </div>
 
+      <div class="st">
+        <div class="sn">15</div>
+        <div>
+          <h4 class="stt">Router Edges & Fix to Frame</h4>
+          <div class="stb">
+            <p><strong>1.</strong> Router a <strong>6mm roundover</strong> on all exposed top edges of the bar top.
+              Sand smooth with 120-grit.<br>
+              <strong>2.</strong> Place the laminated bar top on the frame:<br>
+              — <strong>200mm front overhang</strong> (past the front posts)<br>
+              — <strong>~20mm side overhangs</strong><br>
+              — <strong>Flush at the rear</strong><br>
+              <strong>3.</strong> From underneath, screw up through the top frame rails into the underlay with
+              <strong>3.5×25mm screws</strong> — 6–8 screws evenly spaced. The screws bite into the 11mm underlay
+              without penetrating the 18mm bar top surface.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHASE 6 -->
       <div class="ph">
         <span class="pn">6</span>
         <h3 class="pt">Finishing</h3>
       </div>
+
       <div class="st">
-        <div class="sn">08</div>
+        <div class="sn">16</div>
         <div>
-          <h4 class="stt">Sand, Varnish, Done</h4>
+          <h4 class="stt">Final Sand</h4>
           <div class="stb">
-            <p>Sand everything 120-grit. <strong>2–3 coats clear satin polyurethane</strong> (bar top gets 3). Sand
-              240-grit between coats. Connect LEDs. Stock the shelves.</p>
+            <p>Sand the entire bar with <strong>120-grit</strong>. Pay extra attention to the bar top surface, wave
+              panel faces, and any visible edges. Remove all dust with a tack cloth or damp rag before varnishing.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="st">
+        <div class="sn">17</div>
+        <div>
+          <h4 class="stt">Varnish</h4>
+          <div class="stb">
+            <p><strong>1.</strong> Apply <strong>2–3 coats clear satin polyurethane</strong>. Bar top gets 3 coats
+              minimum — it takes the most wear.<br>
+              <strong>2.</strong> Sand lightly with <strong>240-grit between coats</strong>. Wipe off dust.<br>
+              <strong>3.</strong> Allow <strong>4–6 hours</strong> drying between coats.</p>
+            <p class="tp tpg"><strong>Leave shelves bare.</strong> Raw OSB grips better — bottles and glasses won't
+              slide around. A light wax is fine if you want some protection.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="st">
+        <div class="sn">18</div>
+        <div>
+          <h4 class="stt">Connect LEDs & Stock</h4>
+          <div class="stb">
+            <p><strong>1.</strong> Connect the LED driver. Route the cable neatly behind the bar — use cable clips on
+              the rear posts.<br>
+              <strong>2.</strong> Test the LEDs one final time.<br>
+              <strong>3.</strong> Stock the shelves: spirits and glasses on one side of the divider, mixers and tools
+              on the other.</p>
+            <p><strong>You're done.</strong> Enjoy the bar.</p>
           </div>
         </div>
       </div>
 
       <h3>Build Sequence</h3>
       <ol class="sq">
-        <li><span class="qn">1</span>Build 2 frames, check square</li>
-        <li><span class="qn">2</span>Cut + fit 5 posts</li>
-        <li><span class="qn">3</span>Fix to wall + floor</li>
-        <li><span class="qn">4</span>Fit side panels (11mm)</li>
-        <li><span class="qn">5</span>Fit shelf cleats inside</li>
-        <li><span class="qn">6</span>Fit centre divider</li>
-        <li><span class="qn">7</span>Fit 3 internal shelves</li>
-        <li><span class="qn">8</span>Cut + sand wave panels (18mm)</li>
-        <li><span class="qn">9</span>Install LED on bottom rail</li>
-        <li><span class="qn">10</span>Fix wave panels with 25mm gaps</li>
-        <li><span class="qn">11</span>Laminate + fix bar top</li>
-        <li><span class="qn">12</span>Sand, varnish, LEDs on, done</li>
+        <li><span class="qn">1</span>Cut all CLS timber, label pieces</li>
+        <li><span class="qn">2</span>Build 2 frames, check square</li>
+        <li><span class="qn">3</span>Assemble posts between frames</li>
+        <li><span class="qn">4</span>Fix frame to wall + floor</li>
+        <li><span class="qn">5</span>Cut + fit side panels (11mm)</li>
+        <li><span class="qn">6</span>Fit shelf cleats at 3 heights</li>
+        <li><span class="qn">7</span>Fit centre divider</li>
+        <li><span class="qn">8</span>Cut + fit 3 shelves</li>
+        <li><span class="qn">9</span>Cut + shape wave panels (18mm)</li>
+        <li><span class="qn">10</span>Install + test LED strip</li>
+        <li><span class="qn">11</span>Fix wave panels with 25mm gaps</li>
+        <li><span class="qn">12</span>Laminate + fix bar top</li>
+        <li><span class="qn">13</span>Sand, varnish, LEDs on, done</li>
       </ol>
     </section>
 
